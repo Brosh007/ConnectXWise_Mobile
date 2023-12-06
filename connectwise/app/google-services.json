@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "309196309912",
+    "firebase_url": "https://connectxwise-default-rtdb.firebaseio.com",
+    "project_id": "connectxwise",
+    "storage_bucket": "connectxwise.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:309196309912:android:7894587a5a4b9581a3d7ed",
+        "android_client_info": {
+          "package_name": "com.example.connectwise"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBA8kPDqh38sy0Czmk7BM0LJjFgUgFxqxA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:309196309912:android:f5152a1f2049bbcaa3d7ed",
+        "android_client_info": {
+          "package_name": "com.example.connectxwise"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBA8kPDqh38sy0Czmk7BM0LJjFgUgFxqxA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:309196309912:android:0a4e5ca2e73f74a2a3d7ed",
+        "android_client_info": {
+          "package_name": "com.example.connectxwise_mob"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBA8kPDqh38sy0Czmk7BM0LJjFgUgFxqxA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

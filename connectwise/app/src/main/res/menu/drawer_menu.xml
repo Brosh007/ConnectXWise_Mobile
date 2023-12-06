@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Meetings Item -->
+    <item
+        android:id="@+id/nav_meetings"
+        android:icon="@drawable/meeting"
+    android:title="Meetings" />
+
+    <!-- Messaging Item -->
+    <item
+        android:id="@+id/nav_messaging"
+        android:icon="@drawable/comments_2190552"
+    android:title="Messaging" />
+
+    <!-- View Upcoming Webinars Item -->
+    <item
+        android:id="@+id/nav_webinars"
+        android:icon="@drawable/video"
+    android:title="View Upcoming Webinars" />
+
+
+</menu>
+

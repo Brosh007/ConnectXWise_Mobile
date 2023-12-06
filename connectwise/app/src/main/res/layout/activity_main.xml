@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#333333"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <!-- Logo Image -->
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/smalllogo"
+        android:layout_marginBottom="32dp"
+        android:contentDescription="@string/todo" />
+
+    <!-- Button Container -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp">
+
+        <!-- Button 1: Register Business Owner -->
+        <Button
+            android:id="@+id/btnRegisterBusinessOwner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="#3CBCBC"
+            android:text="@string/register_business_owner"
+            android:textColor="#283593"
+            tools:ignore="VisualLintButtonSize" />
+
+        <!-- Button 2: Register Intern -->
+        <Button
+            android:id="@+id/btnRegisterIntern"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="#3CBCBC"
+            android:text="@string/register_intern"
+            android:textColor="#283593"
+            tools:ignore="VisualLintButtonSize" />
+
+        <!-- Button 3: Login -->
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#3CBCBC"
+            android:text="@string/login"
+            android:textColor="#283593"
+            tools:ignore="VisualLintButtonSize" />
+    </LinearLayout>
+</LinearLayout>

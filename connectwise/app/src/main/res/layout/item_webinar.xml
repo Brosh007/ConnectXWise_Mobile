@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/webinar_item_background"
+    android:backgroundTint="#A7C7E7"
+    android:layout_margin="8dp">
+
+    <!-- Webinar Title -->
+    <TextView
+        android:id="@+id/tvWebinarTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <!-- Webinar Date and Time -->
+    <TextView
+        android:id="@+id/tvWebinarDateTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="#333333" />
+
+    <!-- Webinar Description -->
+    <TextView
+        android:id="@+id/tvWebinarDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="#555555" />
+
+    <!-- Webinar Speaker Name -->
+    <TextView
+        android:id="@+id/tvWebinarSpeakerName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="#555555" />
+
+    <!-- Webinar Location -->
+    <TextView
+        android:id="@+id/tvWebinarLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="#555555" />
+
+    <!-- Webinar Speaker Bio -->
+    <TextView
+        android:id="@+id/tvWebinarSpeakerBio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="#555555" />
+
+    <!-- Add any additional TextViews as needed -->
+</LinearLayout>
+
+

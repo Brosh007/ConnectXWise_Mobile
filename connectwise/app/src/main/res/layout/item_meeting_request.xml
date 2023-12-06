@@ -1,0 +1,47 @@
+<!-- item_meeting_request.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@android:color/white"
+    android:elevation="4dp"
+    >
+
+    <!-- TextView for Company Name -->
+    <TextView
+        android:id="@+id/tvCompanyName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textStyle="bold"/>
+
+    <!-- TextView for Intern Name -->
+    <TextView
+        android:id="@+id/tvInternName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp" />
+
+    <!-- TextView for Date and Time -->
+    <TextView
+        android:id="@+id/tvDateTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp" />
+
+    <!-- TextView for Purpose -->
+    <TextView
+        android:id="@+id/tvPurpose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp" />
+
+    <!-- TextView for Status -->
+    <TextView
+        android:id="@+id/tvStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp" />
+</LinearLayout>
+

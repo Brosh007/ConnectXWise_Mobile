@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Heading TextView -->
+    <TextView
+        android:id="@+id/tvChatHeading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/chats"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:padding="16dp"
+        android:background="#673AB7"
+        android:textColor="#FFFFFF"
+        android:gravity="center"/>
+
+    <!-- ListView for Chats -->
+    <ListView
+        android:id="@+id/listViewChats"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tvChatHeading" />
+</RelativeLayout>
+

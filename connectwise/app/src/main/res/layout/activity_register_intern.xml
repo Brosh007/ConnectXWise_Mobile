@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#333333"
+    tools:context=".RegisterInternActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <ImageView
+                android:id="@+id/imageViewLogo"
+                android:layout_width="wrap_content"
+                android:layout_height="98dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="16dp"
+                android:src="@drawable/smalllogo"
+                android:contentDescription="@string/logo" />
+
+            <TextView
+                android:id="@+id/textViewHeading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/register_intern"
+                android:textAppearance="?attr/textAppearanceHeadline6"
+                android:textColor="#FFFFFF"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="16dp"
+                android:textSize="18sp"/>
+
+            <!-- InternID (Username) -->
+            <EditText
+                android:id="@+id/editTextInternID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/intern_id"
+                android:inputType="text"
+                android:minHeight="48dp"
+                android:textColorHint="#9E9E9E"
+                android:autofillHints=""
+                tools:ignore="VisualLintTextFieldSize" />
+
+            <!-- FirstName -->
+            <EditText
+                android:id="@+id/editTextFirstName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/first_name"
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                android:textColorHint="#9E9E9E"
+                android:autofillHints=""
+                tools:ignore="VisualLintTextFieldSize" />
+
+            <!-- LastName -->
+            <EditText
+                android:id="@+id/editTextLastName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/last_name"
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                android:textColorHint="#9E9E9E"
+                android:autofillHints=""
+                tools:ignore="VisualLintTextFieldSize" />
+
+            <!-- Email -->
+            <EditText
+                android:id="@+id/editTextEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/email"
+                android:inputType="textEmailAddress"
+                android:minHeight="48dp"
+                android:textColorHint="#9E9E9E"
+                android:autofillHints=""
+                tools:ignore="VisualLintTextFieldSize" />
+
+
+            <!-- Password -->
+            <EditText
+                android:id="@+id/editTextPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/password"
+                android:inputType="textPassword"
+                android:minHeight="48dp"
+                android:textColorHint="#9E9E9E"
+                android:autofillHints=""
+                tools:ignore="VisualLintTextFieldSize" />
+
+
+            <!-- PhoneNumber -->
+            <EditText
+                android:id="@+id/editTextPhoneNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/phone_number"
+                android:inputType="phone"
+                android:minHeight="48dp"
+                android:textColorHint="#9E9E9E"
+                android:autofillHints=""
+                tools:ignore="VisualLintTextFieldSize" />
+
+
+            <!-- ProfileImage -->
+            <EditText
+                android:id="@+id/editTextProfileImage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/profile_image_url"
+                android:inputType="textUri"
+                android:minHeight="48dp"
+                android:textColorHint="#9E9E9E"
+                android:autofillHints=""
+                tools:ignore="VisualLintTextFieldSize" />
+
+
+            <!-- Education -->
+            <EditText
+                android:id="@+id/editTextEducation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/education"
+                android:inputType="text"
+                android:minHeight="48dp"
+                android:textColorHint="#9E9E9E"
+                android:autofillHints=""
+                tools:ignore="VisualLintTextFieldSize" />
+
+            <!-- Interests -->
+            <EditText
+                android:id="@+id/editTextInterests"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/interests"
+                android:inputType="text"
+                android:minHeight="48dp"
+                android:textColorHint="#9E9E9E"
+                android:autofillHints=""
+                tools:ignore="VisualLintTextFieldSize" />
+
+            <!-- Skills -->
+            <EditText
+                android:id="@+id/editTextSkills"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/skills"
+                android:inputType="text"
+                android:minHeight="48dp"
+                android:textColorHint="#9E9E9E"
+                android:autofillHints=""
+                tools:ignore="VisualLintTextFieldSize" />
+
+            <!-- Location -->
+            <EditText
+                android:id="@+id/editTextLocation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/location"
+                android:inputType="text"
+                android:minHeight="48dp"
+                android:textColorHint="#9E9E9E"
+                android:autofillHints=""
+                tools:ignore="VisualLintTextFieldSize" />
+
+            <!-- Bio -->
+            <EditText
+                android:id="@+id/editTextBio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/bio"
+                android:inputType="textMultiLine"
+                android:minHeight="48dp"
+                android:textColorHint="#9E9E9E"
+                android:autofillHints=""
+                tools:ignore="VisualLintTextFieldSize" />
+
+            <!-- Submit Button -->
+            <Button
+                android:id="@+id/btnSubmit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:backgroundTint="#3CBCBC"
+                android:text="@string/register"
+                android:textColor="#283593" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

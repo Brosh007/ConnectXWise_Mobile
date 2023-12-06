@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_meetings"
+        android:icon="@drawable/meeting"
+        android:title="@string/meetings" />
+    <item
+        android:id="@+id/nav_messaging"
+        android:icon="@drawable/comments_2190552"
+        android:title="@string/messaging" />
+    <item
+        android:id="@+id/nav_webinars"
+        android:icon="@drawable/video"
+        android:title="@string/webinars" />
+</menu>

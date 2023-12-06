@@ -1,0 +1,47 @@
+<!-- activity_meetings.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Container for Home Icon and Header -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        tools:ignore="UseCompoundDrawables"
+        android:background="#673AB7">
+
+        <!-- Home Icon Button -->
+        <ImageView
+            android:id="@+id/imgHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_home"
+            android:contentDescription="@string/home"
+            android:padding="8dp"/>
+
+        <!-- Header TextView -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/meeting_requests"
+            android:textSize="24sp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:paddingStart="16dp"
+            tools:ignore="RtlSymmetry" />
+
+    </LinearLayout>
+
+    <!-- ListView for Meeting Requests -->
+    <ListView
+        android:id="@+id/listViewMeetingRequests"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
+
+
